@@ -44,7 +44,7 @@ export function AppSidebar() {
             <Truck className="h-6 w-6 text-accent-foreground" />
           </div>
           <div>
-            <h2 className="text-lg font-bold text-sidebar-foreground">LogiTrack</h2>
+            <h2 className="text-lg font-bold text-sidebar-foreground">Logitransport CRM</h2>
             <p className="text-xs text-sidebar-foreground/60">CRM Система</p>
           </div>
         </div>
