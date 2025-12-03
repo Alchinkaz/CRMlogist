@@ -10,7 +10,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 const drivers = [
   {
     id: 1,
-    name: "Иванов Иван Иванович",
+    name: "Нұрлан Нұрланұлы",
     phone: "+7 (915) 123-45-67",
     license: "99 12 345678",
     experience: "15 лет",
@@ -22,7 +22,7 @@ const drivers = [
   },
   {
     id: 2,
-    name: "Петров Петр Петрович",
+    name: "Айдар Айдарұлы",
     phone: "+7 (916) 234-56-78",
     license: "77 23 456789",
     experience: "8 лет",
@@ -34,7 +34,7 @@ const drivers = [
   },
   {
     id: 3,
-    name: "Сидоров Сергей Сергеевич",
+    name: "Асхат Асхатұлы",
     phone: "+7 (917) 345-67-89",
     license: "50 34 567890",
     experience: "12 лет",
@@ -46,7 +46,7 @@ const drivers = [
   },
   {
     id: 4,
-    name: "Козлов Владимир Васильевич",
+    name: "Ерлан Ерланұлы",
     phone: "+7 (918) 456-78-90",
     license: "63 45 678901",
     experience: "10 лет",
@@ -58,7 +58,7 @@ const drivers = [
   },
   {
     id: 5,
-    name: "Новиков Николай Николаевич",
+    name: "Нұрбол Нұрболұлы",
     phone: "+7 (919) 567-89-01",
     license: "16 56 789012",
     experience: "6 лет",

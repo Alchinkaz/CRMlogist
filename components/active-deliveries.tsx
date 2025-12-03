@@ -10,7 +10,7 @@ const activeDeliveries = [
   {
     id: "ORD-2024-001",
     route: "Алматы → Астана",
-    driver: "Иванов И.И.",
+    driver: "Н.Н.",
     vehicle: "А123БВ 02",
     progress: 65,
     currentLocation: "Караганда",
@@ -32,7 +32,7 @@ const activeDeliveries = [
   {
     id: "ORD-2024-004",
     route: "Тараз → Туркестан",
-    driver: "Козлов В.В.",
+    driver: "Е.Е.",
     vehicle: "М345НО 10",
     progress: 45,
     currentLocation: "Сайрам",

@@ -12,7 +12,7 @@ export function ClientsSearch() {
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-            <Input placeholder="Поиск по названию или ИНН..." className="pl-9" />
+            <Input placeholder="Поиск по названию или ИИН..." className="pl-9" />
           </div>
           <Select defaultValue="all">
             <SelectTrigger className="w-full md:w-[180px]">

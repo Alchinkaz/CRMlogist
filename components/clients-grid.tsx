@@ -7,11 +7,11 @@ import { Building2, Mail, Phone, MapPin, Eye, Pencil } from "lucide-react"
 const clients = [
   {
     id: 1,
-    name: "ООО «Торговый Дом»",
+    name: "ТОО «Торговый Дом»",
     type: "Юр. лицо",
     inn: "770123456789",
-    contact: "Иванов Иван Иванович",
-    email: "ivanov@torgoviy-dom.kz",
+    contact: "Нұрлан Нұрланұлы",
+    email: "nurlan@torgoviy-dom.kz",
     phone: "+7 (727) 123-45-67",
     city: "Алматы",
     orders: 47,
@@ -20,11 +20,11 @@ const clients = [
   },
   {
     id: 2,
-    name: "ИП Петров Алексей Сергеевич",
+    name: "ИП Асылбек Асылбекұлы",
     type: "ИП",
     inn: "660112345678",
-    contact: "Петров Алексей Сергеевич",
-    email: "petrov@mail.kz",
+    contact: "Асылбек Асылбекұлы",
+    email: "asylbek@mail.kz",
     phone: "+7 (7172) 234-56-78",
     city: "Астана",
     orders: 23,
@@ -33,10 +33,10 @@ const clients = [
   },
   {
     id: 3,
-    name: "ООО «Стройматериалы»",
+    name: "ТОО «Стройматериалы»",
     type: "Юр. лицо",
     inn: "165509876543",
-    contact: "Сидорова Мария Петровна",
+    contact: "Айгүл Айгүлқызы",
     email: "info@stroymaterialy.kz",
     phone: "+7 (7252) 345-67-89",
     city: "Шымкент",
@@ -49,8 +49,8 @@ const clients = [
     name: "АО «Продукты»",
     type: "Юр. лицо",
     inn: "616402345678",
-    contact: "Козлов Владимир Васильевич",
-    email: "kozlov@produkty.kz",
+    contact: "Ерлан Ерланұлы",
+    email: "erlan@produkty.kz",
     phone: "+7 (7212) 456-78-90",
     city: "Караганда",
     orders: 18,
@@ -59,11 +59,11 @@ const clients = [
   },
   {
     id: 5,
-    name: "ООО «Техника»",
+    name: "ТОО «Техника»",
     type: "Юр. лицо",
     inn: "631567890123",
-    contact: "Новикова Елена Андреевна",
-    email: "novikova@tehnika.kz",
+    contact: "Айша Айшақызы",
+    email: "aisha@tehnika.kz",
     phone: "+7 (7132) 567-89-01",
     city: "Актобе",
     orders: 12,
@@ -72,11 +72,11 @@ const clients = [
   },
   {
     id: 6,
-    name: "ИП Смирнов Дмитрий Александрович",
+    name: "ИП Данияр Даниярұлы",
     type: "ИП",
     inn: "366245678901",
-    contact: "Смирнов Дмитрий Александрович",
-    email: "smirnov@mail.kz",
+    contact: "Данияр Даниярұлы",
+    email: "daniyar@mail.kz",
     phone: "+7 (7182) 678-90-12",
     city: "Павлодар",
     orders: 8,
@@ -107,7 +107,7 @@ export function ClientsGrid() {
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Building2 className="h-4 w-4" />
-                <span>ИНН: {client.inn}</span>
+                <span>ИИН: {client.inn}</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />

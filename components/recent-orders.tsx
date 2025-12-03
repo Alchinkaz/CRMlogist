@@ -4,21 +4,21 @@ import { Badge } from "@/components/ui/badge"
 const recentOrders = [
   {
     id: "ORD-2024-001",
-    client: "ООО «Торговый Дом»",
+    client: "ТОО «Торговый Дом»",
     route: "Алматы → Астана",
     status: "В пути",
     statusColor: "default",
   },
   {
     id: "ORD-2024-002",
-    client: "ИП Иванов А.С.",
+    client: "ИП Нұрлан Н.Н.",
     route: "Шымкент → Караганда",
     status: "Доставлен",
     statusColor: "default",
   },
   {
     id: "ORD-2024-003",
-    client: "ООО «Стройматериалы»",
+    client: "ТОО «Стройматериалы»",
     route: "Актобе → Костанай",
     status: "Ожидание",
     statusColor: "secondary",
@@ -32,7 +32,7 @@ const recentOrders = [
   },
   {
     id: "ORD-2024-005",
-    client: "ООО «Техника»",
+    client: "ТОО «Техника»",
     route: "Павлодар → Усть-Каменогорск",
     status: "Обработка",
     statusColor: "secondary",
